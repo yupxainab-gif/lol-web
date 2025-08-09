@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Baby's Website</title>
+  <style>
+    body {
+      background-color: #ffd1dc; /* pastel pink */
+      font-family: 'Comic Sans MS', cursive, sans-serif;
+      text-align: center;
+      padding: 100px;
+      color: #ff4d6d;
+    }
+    h1 {
+      font-size: 4em;
+      margin-bottom: 40px;
+    }
+    button {
+      background-color: #ff9bb3;
+      border: none;
+      padding: 20px 40px;
+      margin: 20px;
+      font-size: 1.5em;
+      border-radius: 12px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #ff6585;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>I'm dumb</h1>
+  <button onclick="alert('Yes, you are you!')">Are you you?</button>
+  <button onclick="alert('Not you!')">Not you</button>
+</body>
+</html>
